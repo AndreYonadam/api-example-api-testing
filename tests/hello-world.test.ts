@@ -5,8 +5,11 @@ describe("Hello World Route", () => {
   test("should create an entry", async () => {
     await axios
       .post('http://127.0.0.1:3000/hello-world',
+        null,
         {
-          message: 'This should work!'
+          params: {
+            message: 'This should work!'
+          }
         }
       )
       .then(res => {
