@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "http-status-codes": "^1.4.0",
     "jest": "^25.5.2",
     "ts-jest": "^25.4.0",
